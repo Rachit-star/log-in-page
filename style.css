@@ -1,0 +1,120 @@
+body{
+    background-color: antiquewhite;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    height: 500px;
+    width: 400px;
+    
+    background-color: white;
+    border-radius: 10%;
+    
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    gap: 130px;
+}
+
+.main h1{
+    color: royalblue;
+    font-weight:1000;
+    
+    
+    
+}
+
+.icon{
+    background-color: royalblue;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    position: relative;
+    top:34px;
+    left: 20px;
+    animation: pulse infinite 2s ease-in;
+
+
+}
+
+.message p{
+    color: rgba(88, 87, 87, 0.822);
+    position: relative;
+    left: 1.58rem;
+
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+
+}
+
+.content .textboxes .first{
+    width: 30%;
+    padding-left: 10px;
+    border-radius: 10px;
+    height: 30px;
+    border-color: rgba(179, 52, 52, 0.329);
+    color: rgba(88, 87, 87, 0.822);
+    margin-left: 25px;
+    border-width: 1px;
+    
+    
+    
+}
+
+.content .textboxes .info{
+    width: 80%;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 25px;
+    border-color: rgba(179, 52, 52, 0.329);
+    color: rgba(88, 87, 87, 0.822);
+    margin-left: 25px; 
+    border-width: 1px;
+    padding-left: 10px;
+}
+
+
+
+@keyframes pulse{
+    from{
+        transform: scale(1);
+        opacity: 0.9;
+    }to{
+        transform: scale(2);
+        opacity:0 ;
+    }
+}
+
+.content .textboxes button{
+    background-color: royalblue;
+    color: white;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 90%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 38px;
+    font-size:100%;
+    cursor: pointer;
+}
+
+.footer p,a{
+    margin-left: 50px;
+    margin-top: 60px;
+    text-decoration: none;
+    color: rgba(88, 87, 87, 0.822);
+
+}
+
